@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla 4</title>
+
+    <style>
+        body {
+            width: auto;
+        }
+
+        .tabla1 {
+            width: 960px;
+            height: 800px;
+        }
+
+        .subtabla {
+            width: 260px;
+            height: 220px;
+        }
+
+        table, tr, td {
+            margin: auto;
+            border: 1px solid;
+        }
+    </style>
+</head>
+<body>
+    <table class="tabla1">
+        <tr>
+            <td>
+                <table class="subtabla">
+                    <tr>
+                        <td colspan="2" style="height: 5px;">Fila 50px alto</td>
+                    </tr>
+                    <tr>
+                        <td style="width: 8px; vertical-align: text-top;">Columna 100px ancho</td>
+                        <td></td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table class="subtabla">
+                    <tr>
+                        <td colspan="2" style="height: 5px;">Fila 50px alto</td>
+                    </tr>
+                    <tr>
+                        <td style="vertical-align: text-top; width: 50%;">Columna 50% ancho</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" style="height: 5px;">Fila 50px alto</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table class="subtabla">
+                    <tr>
+                        <td colspan="2" style="height: 5px;">Fila 50px alto</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2" style="width: 8px; vertical-align: text-top;">Columna 100px ancho</td>
+                        <td></td>
+                    </tr>
+                    <tr style="height: 39%;">
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" style="height: 5px;">Fila 50px alto</td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table class="subtabla">
+                    <tr>
+                        <td>
+
+                        </td>
+                        <td>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+
+                        </td>
+                        <td>
+                            
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

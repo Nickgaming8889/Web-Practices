@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla 3</title>
+
+    <style>
+        body {
+            width: auto;
+        }
+
+        p {
+            text-align: center;
+        }
+
+        table {
+            width: 960px;
+            height: 800px;
+        }
+
+        table, tr, td {
+            margin: auto;
+            border: 1px solid;
+        }
+    </style>
+</head>
+<body>
+    <p>Tabla 960px ancho, 800px alto</p>
+    <table>
+        <tr>
+            <td colspan="2" style="height: 50px;">Fila 50px alto</td>
+        </tr>
+        <tr>
+            <td rowspan="2" style="width: 100px; vertical-align: text-top;">Columna 100px ancho</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td style="height: 43%;"></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="height: 50px;">Fila 50px alto</td>
+        </tr>
+    </table>
+</body>
+</html>
