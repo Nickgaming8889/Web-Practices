@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="validation.js"></script>
+    <title>Form Validation</title>
+
+    <style>
+        .email, .name, .rol {
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <form name="form01" action="" method="post" onsubmit="return validation()" class="form">
+        <input type="text" placeholder="Email" id="email" class="email" value=""><br>
+        <input type="text" placeholder="Name" id="name" class="name" value=""><br>
+        <select id="rol" class="rol">
+            <option value="0">-Option-</option>
+            <option value="1">Gerente</option>
+            <option value="2">Ejecutivo</option>
+        </select>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
