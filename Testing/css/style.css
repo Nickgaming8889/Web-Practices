@@ -1,0 +1,29 @@
+body {
+    margin: auto;
+    padding: 5px;
+}
+
+.container-table {
+    width: auto;
+    height: 300px;
+    display: flex;
+    background-color: dimgray;
+}
+
+.container-row {
+    margin: 5px;
+    height: 112px;
+    width: 100%;
+    min-width: 300px;
+    display: flex;
+    justify-content: space-between;
+    background-color: grey;
+}
+
+.box {
+    margin: 4px;
+    padding: 2px;
+    width: 100px;
+    height: 100px;
+    background-color: whitesmoke;
+}
