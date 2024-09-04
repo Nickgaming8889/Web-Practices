@@ -1,0 +1,26 @@
+.alumno {
+    color: #0066cc;
+    line-height: 22px;
+}
+
+#mensaje {
+    color: #f00;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 12px;
+    width: 224px;
+    height: 30px;
+    line-height: 30px;  
+    background-color: #ccc;
+    text-align: center;
+}
+
+.maestro{
+    color: #005a1f;
+    line-height: 22px                               ;
+}
+
+.reprobado {
+    background-color: #ff0000;
+}
+
