@@ -1,0 +1,28 @@
+.body {
+    margin: 5px;
+    padding: 0;
+}
+
+.container-form {
+    display: flex;
+    width: auto;
+}
+
+.display {
+    display: flex;
+    margin: 5px;
+}
+
+.inputs .number {
+    margin: 2px;
+    border: none;
+    background-color: lightslategray;
+    color: white;
+}
+
+.aric .operations {
+    margin: 2px;
+    background-color: white;
+    border: 1px solid;
+    border-color: lightslategray;
+}
