@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Val PHP/Js</title>
+</head>
+<body>
+    <form action="receive.php" onsubmit="return Validation()" method="post">
+        <form name="forma01" action="recibe.html" method="POST">
+            <label>
+                Nombre:
+                <input id="campo1" type="text" name="nombre" placeholder="Escribe tu nombre">
+            </label>
+                                
+            <br>
+            <label>Correo:</label>
+            <input type="email" name="correo" id="correo" value="">
+            <br>
+            <label for="sexo">Genero:</label>
+            <input type="radio" name="sexo" id="sexo" value="F">Femenino
+            <input type="radio" name="sexo" id="sexo" value="M">Masculino
+            <br>
+            <input type="checkbox" name="boletin" id="bol" value="" checked>
+            <label for="boletin">Recibir Boletín</label>
+            <br>
+            <label for="comentario">Comentario:</label><br>
+            <textarea name="comentario" id="comme" cols="30" rows="5"></textarea>
+            <br>
+            <label for="carrera">Carrera:</label>
+            <select name="carrera" id="career">
+                <option value="0" selected>Selecciona</option>
+                <option value="1">Ing. Informática</option>
+                <option value="2">Ing. Computación</option>			
+            </select>
+            <br>
+            <label for="pasw">Contraseña:</label>
+            <input type="password" id="pass" name="pasw">
+            <br>
+            <label for="promedio">Promedio:</label>
+            <input type="number" id="prom" name="promedio" min="60" max="100">
+            <br>
+            <label for="fecha">Fecha nacimiento:</label>
+            <input type="date" id="date" name="fecha">
+            
+            <br>
+            <input type="submit" value="Enviar con input">
+    </form>
+</body>
+    <script src="scripts/validation.js"></script>
+</html>
