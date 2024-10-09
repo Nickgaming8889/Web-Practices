@@ -1,18 +1,19 @@
 function Validation() {
-    let email_ = document.getElementById("correo").value;
-    let sex_ = document.getElementById("sexo");
-    let boletin_ = document.getElementById("bol").value;
-    let career_ = document.getElementById("career").value;
-    let pass_ = document.getElementById("pass").value;
-    let prom_ = document.getElementById("prom").value;
-    let date_ = document.getElementById("date").value;
-
-    if (email_ == "" && sex_.checked == false && boletin_== "" && career_ == "0" && pass_ == "" && prom_ == "" && date_ == "") {
-        alert("faltan campos por llenar");
+    var nombre = document.getElementById("campo1").value;
+    var correo = document.getElementById("correo").value;
+    var sexo = document.querySelector('input[name="sexo"]:checked').value;
+    var boletin = document.getElementById("bol").checked;
+    var comentario = document.getElementById("comment").value;
+    var carrera = document.getElementById("career").value;
+    var pasw = document.getElementById("pass").value;
+    var promedio = document.getElementById("prom").value;
+    var fecha = document.getElementById("date").value;
+  
+    if (nombre == "" && correo == "" && correo == "" && sexo == undefined && !boletin && comentario == " " && carrera == "0" && pasw == "" && (promedio < 60 && promedio > 100) && fecha == "") {
+        alert("Por favor, complete todos los campos correctamente");
         return false;
     }
-    else {
-        alert("Campos llenos");
-        return true;
-    }
+  
+    return true;
 }
+  

@@ -90,8 +90,15 @@ body {
     border: 1px solid;
 }
 
-.column3 {
+.column3:first-child {
     margin: 1px;
-    width: 50%;
+    width: 12%;
     border: 1px solid;
+}
+
+.internal-row {
+    height: 48%;
+    width: 215px;
+    border: 1px solid;
+    margin: 1px;
 }
